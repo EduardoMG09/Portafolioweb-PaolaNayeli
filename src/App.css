@@ -1,0 +1,17 @@
+/* Hace que html, body y #root ocupen toda la pantalla */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo general del body */
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #e6e5e5; /* puedes cambiarlo */
+  font-family: 'Poppins', sans-serif;
+}
+

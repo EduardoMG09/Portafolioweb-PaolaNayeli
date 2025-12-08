@@ -1,0 +1,39 @@
+.card-header {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    position: relative;
+}
+
+.card-header:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.card-header:nth-child(even) {
+    align-self: flex-end;
+}
+
+.card-header img {
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 1 / 2;
+    transform: translateY(-50%);
+    z-index: 2;
+    margin-bottom: -70%;
+}
+
+.card-header p {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}

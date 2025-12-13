@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect } from "react"
 import "../styles/Navbar.css"
 import img from "../assets/logo-1.webp"
@@ -10,9 +8,8 @@ function Navbar() {
 
   const pages = [
     { name: "Inicio", path: "#inicio" },
-    { name: "Blog", path: "#blog" },
-    { name: "Biblioteca", path: "#biblioteca" },
-    { name: "Cursos", path: "#cursos" },
+    { name: "Sobre Mí", path: "#sobre-mi" },
+    { name: "Contenido", path: "#contenido" },
     { name: "Contacto", path: "#contacto" },
   ]
 
@@ -38,6 +35,9 @@ function Navbar() {
               {page.name}
             </a>
           ))}
+          <button className="cta-btn" onClick={() => setMobileMenuOpen(false)}>
+            Comenzar
+          </button>
         </div>
 
         <button className="mobile-menu-btn" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu">

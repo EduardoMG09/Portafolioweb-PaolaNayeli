@@ -1,48 +1,51 @@
 .card-header {
   height: 100%;
-  min-height: 220px;
+  min-height: 160px; /* even smaller card height */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   border-radius: 1.5rem;
   padding: 1rem 1.5rem 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* Card shadow uses its own color */
+  box-shadow: 0 8px 20px rgba(var(--card-color-rgb, 0, 0, 0), 0.25);
   overflow: visible;
   position: relative;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #ffffff;
   border: 2px solid #f3f4f6;
 }
 
 .card-header:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(30, 64, 175, 0.15);
-  border-color: var(--color-accent);
+  /* Hover shadow also based on card color */
+  box-shadow: 0 14px 28px rgba(var(--card-color-rgb, 0, 0, 0), 0.35);
+  border-color: rgba(var(--card-color-rgb, 0, 0, 0), 0.5);
 }
 
 .card-header img {
-  max-width: 140px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   object-fit: contain;
   position: absolute;
-  top: -40px;
+  top: -70px; /* protrude above the card */
   left: 50%;
   transform: translateX(-50%);
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.12));
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.25));
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 2;
 }
 
 .card-header:hover img {
   transform: translateX(-50%) scale(1.12) rotate(-5deg);
-  filter: drop-shadow(0 12px 20px rgba(16, 185, 129, 0.3));
+  /* Hover shadow should be black, not green */
+  filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.35));
 }
 
 .card-header p {
   width: 100%;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 110px; /* space for protruding image */
   padding: 0.5rem;
   font-weight: 600;
   color: #1f2937;
@@ -54,21 +57,24 @@
 
 .card-header:nth-child(1) {
   animation-delay: 0.1s;
+  transform: translateY(0);
 }
 
 .card-header:nth-child(2) {
   animation-delay: 0.2s;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  transform: translateY(12px);
 }
 
 .card-header:nth-child(3) {
   animation-delay: 0.3s;
-  margin-top: 4rem;
+  margin-top: 3rem;
+  transform: translateY(24px);
 }
 
 @media (max-width: 768px) {
   .card-header {
-    min-height: 200px;
+    min-height: 150px; /* smaller mobile card height */
     padding: 1rem;
   }
 
@@ -78,12 +84,13 @@
   }
 
   .card-header img {
-    max-width: 110px;
-    top: -30px;
+    width: 240px;
+    height: 240px;
+    top: -60px;
   }
 
   .card-header p {
     font-size: 1rem;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 }

@@ -1,39 +1,89 @@
 .card-header {
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    border-radius: 15px;
-    padding: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: visible;
-    position: relative;
+  height: 100%;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: visible;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #ffffff;
+  border: 2px solid #f3f4f6;
 }
 
-.card-header:nth-child(odd) {
-    align-self: flex-start;
-}
-
-.card-header:nth-child(even) {
-    align-self: flex-end;
+.card-header:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(30, 64, 175, 0.15);
+  border-color: var(--color-accent);
 }
 
 .card-header img {
-    max-width: 50%;
-    height: auto;
-    object-fit: contain;
-    aspect-ratio: 1 / 2;
-    transform: translateY(-50%);
-    z-index: 2;
-    margin-bottom: -70%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.12));
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
+}
+
+.card-header:hover img {
+  transform: translateX(-50%) scale(1.12) rotate(-5deg);
+  filter: drop-shadow(0 12px 20px rgba(16, 185, 129, 0.3));
 }
 
 .card-header p {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
+  margin-top: 60px;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+}
+
+.card-header:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.card-header:nth-child(2) {
+  animation-delay: 0.2s;
+  margin-top: 2rem;
+}
+
+.card-header:nth-child(3) {
+  animation-delay: 0.3s;
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .card-header {
+    min-height: 200px;
     padding: 1rem;
-    font-weight: 500;
-    color: #333;
-    text-align: center;
+  }
+
+  .card-header:nth-child(2),
+  .card-header:nth-child(3) {
+    margin-top: 1rem;
+  }
+
+  .card-header img {
+    max-width: 110px;
+    top: -30px;
+  }
+
+  .card-header p {
+    font-size: 1rem;
+    margin-top: 50px;
+  }
 }

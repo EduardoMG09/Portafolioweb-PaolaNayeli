@@ -18,10 +18,27 @@ function ItemBlog(props) {
             </div>
 
             <div className="item-blog-media">
-                {props.imagen ? (
-                    <img src={resolveAsset(props.imagen)} alt={props.titulo} className="item-blog-image" />
-                ) : null}
-                <button className="item-blog-cta" aria-label="Leer más">Leer más</button>
+                {(() => {
+                    const src = props.imagen || props.video;
+                    if (!src) return null;
+                    const resolved = resolveAsset(src);
+                    const isMp4 = typeof src === "string" && src.toLowerCase().endsWith(".mp4");
+                    return isMp4 ? (
+                        <video
+                            src={resolved}
+                            className="item-blog-image"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            preload="metadata"
+                            aria-label={props.titulo}
+                        />
+                    ) : (
+                        <img src={resolved} alt={props.titulo} className="item-blog-image" />
+                    );
+                })()}
+                <button className="item-blog-cta" disabled aria-label="Leer más">Leer más</button>
             </div>
 
             <div className="item-blog-meta">

@@ -9,7 +9,7 @@
 .item-blog-card {
   display: flex;
   flex-direction: column;
-  background: #c9c9ca; /* warm neutral like reference */
+  background: #e9e9ea; /* warm neutral like reference */
   border: 1px solid rgba(0,0,0,0.06);
   border-radius: 24px;
   overflow: hidden;
@@ -47,8 +47,8 @@
 
 .item-blog-title {
   margin: 0 0 6px;
-  font-weight: 800;
-  font-size: clamp(1.15rem, 0.9rem + 1vw, 1.6rem);
+  font-weight: 700;
+  font-size: 1.3rem;
   line-height: 1.2;
   display: -webkit-box;
   -webkit-box-orient: vertical;

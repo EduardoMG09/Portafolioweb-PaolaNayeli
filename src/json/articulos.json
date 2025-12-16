@@ -1,0 +1,186 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "titulo": "¿Qué me espera después de la vida académica?",
+      "fecha": "2025-03-14",
+      "categoria": "Vida Universitaria",
+      "etiquetas": ["universitarios", "vidaacademica", "egresados"],
+      "resumen": "Reflexiones sobre la transición de la vida universitaria al mundo laboral y por qué es importante disfrutar cada etapa.",
+      "contenido": "Seguramente algunos días te has cuestionado qué te espera después la escuela y sientes prisa por terminar los estudios universitarios. Te podría asegurar que la mayoría de los que teníamos ganas de egresar, cuando estuvimos los primeros días buscando trabajo empezamos a pensar que estábamos mejor en la escuela. Egresar de la universidad es entrar a un mundo con más responsabilidades donde empezamos a conocer a nuevas personas, se tienen más retos (profesionales, sociales, etc.) y enfrentamos un panorama realista de nuestros gastos diarios.\n\nPor ahora yo te recomiendo disfrutar cada día de esa clase que te aburre, y trates de relajarte cuanto te sea posible. Cada etapa de nuestra vida es bella, enfócate en prepararte y sacar el máximo provecho de tu tiempo.\n\n¡Cuídate!",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo1.mp4"
+    },
+    {
+      "id": 2,
+      "titulo": "Empezando a preparar los propósitos de año nuevo",
+      "fecha": "2023-12-05",
+      "categoria": "Desarrollo Personal",
+      "etiquetas": ["propósitos", "reflexión", "metas"],
+      "resumen": "¿Por qué siempre en diciembre hablamos de propósitos? Una nueva perspectiva sobre hacer cortes para revisar nuestro progreso.",
+      "contenido": "Te has preguntado el por qué en esta fecha siempre se empieza con propaganda sobre los propósitos del año venidero. Siendo realistas el tiempo sigue y los propósitos los podríamos iniciar en cualquier mes, ¿cierto? Te confieso que antes de la pandemia me enfadaba este tema en diciembre, pero analizándolo desde otra perspectiva es necesario a veces hacer cortes para revisar lo que venimos haciendo bien y lo que debemos de corregir o continuar haciendo para alcanzar nuestras metas.\n\nPor ahora yo te recomiendo disfrutar cada día de esa clase que te aburre, y trates de relajarte cuanto te sea posible. Cada etapa de nuestra vida es bella, enfócate en prepararte y sacar el máximo provecho de tu tiempo.\n\n¡Cuídate!",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo2.webp"
+    },
+    {
+      "id": 3,
+      "titulo": "¿Qué tan tolerante a la frustración eres?",
+      "fecha": "2023-10-11",
+      "categoria": "Desarrollo Personal",
+      "etiquetas": ["emociones", "frustración", "autoconocimiento"],
+      "resumen": "Cómo manejamos los momentos difíciles del día y la importancia de aprender a canalizar la frustración.",
+      "contenido": "Seguramente a lo largo del día pasamos por un momento no tan agradable, por ejemplo: hubo mucho tráfico, llegaste tarde a la escuela, no había papel en el sanitario, reprobaste la evaluación, etcétera. Ante estas situaciones, ¿Cuál es tu reacción? Te enojas, gritas, quieres llorar o lloras, o simplemente respiras y le das vuelta a la página.\n\nYo en particular grito o se me sale una lagrimita, pero tengo que sacar esa sensación de alguna forma. Aprender a lidiar con la frustración es parte de nuestro día a día, por eso es importante saber canalizarla para evitar quedarnos con nudos en la garganta o echar a perder el resto del día.\n\nCuéntame y ¿tú cómo manejas la frustración?",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo3.webp"
+    },
+    {
+      "id": 4,
+      "titulo": "El hábito de la lectura",
+      "fecha": "2023-09-12",
+      "categoria": "Educación",
+      "etiquetas": ["lectura", "AmolosLibros", "hábitos"],
+      "resumen": "Los beneficios académicos y profesionales de cultivar el hábito de la lectura desde temprana edad.",
+      "contenido": "La semana pasada el IPN celebró la feria internacional del libro que a nivel personal lo considero un evento maravilloso que disfruto muchísimo cada año. Y relacionado a ello, déjame contarte para qué nos puede ayudar el hábito de la lectura. A nivel académico y profesional la lectura nos permite enriquecer nuestro vocabulario y mejorar la redacción de las ideas. Además de propiciar el abrirnos a nuevos panoramas y formarnos una mejor opinión sobre determinados temas. Lo cierto es que entre más lees más cuestionas y siempre buscas más fuentes de información, es decir, se convierte en un vicio para seguir leyendo más.\n\nTe cuento que yo empecé a leer en el inicio de la pubertad, cursaba la secundaria y fue gracias a una maestra de español y el apoyo de mis padres que empezaron a comprarme libros.\n\nNunca es tarde para empezar a leer.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo4.webp"
+    },
+    {
+      "id": 5,
+      "titulo": "El secreto está en los detalles",
+      "fecha": "2023-09-04",
+      "categoria": "Desarrollo Personal",
+      "etiquetas": ["observación", "consejos", "vida diaria"],
+      "resumen": "La importancia de observar los detalles en nuestro día a día, tanto a nivel académico como personal.",
+      "contenido": "La semana pasada durante la clase salió a colación la frase \"el secreto está en los detalles\" y déjame compartirte que en esas seis palabras se esconde un gran mensaje. Muchas veces vamos por el día a día sin observar a nuestro alrededor lo que pasa, y ahí estamos perdiendo mucha información valiosa. A nivel académico observa la forma en cómo explica el profesor o profesora los temas, el diseño de la presentación, el vocabulario que emplea y seguramente ahí te darás cuenta de la forma en la cual trabaja o su nivel de preparación.\n\nEsta sencilla frase me ha ayudado a identificar señales para acercarme a algunos estudiantes y apoyarlos, y muchas veces la aplicó a nivel personal cuando mi hija empieza hacer un berrinche.\n\nRecuerda esta frase y adóptala en tu día a día, te sorprenderás de lo que puedes encontrar. ¡Quizás tu crush te guiñe el ojo y tú ni por enterad@!\n\nBuena semana.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo5.webp"
+    },
+    {
+      "id": 6,
+      "titulo": "Nuevo semestre",
+      "fecha": "2023-08-28",
+      "categoria": "Vida Universitaria",
+      "etiquetas": ["semestre", "motivación", "estudiantes"],
+      "resumen": "Reflexiones y consejos para comenzar un nuevo semestre universitario con la mejor actitud.",
+      "contenido": "Hoy empezamos este nuevo ciclo llamado semestre. Seguramente estás con emoción, nervios, alegría, preocupación, incertidumbre, etcétera. Lo bueno de sentir estas emociones es tener una clara señal que estamos VIVOS. Así que aprovechemos este arranque de semestre y dejemos todo nuestro esfuerzo en alcanzar las metas académicas. Mi consejo de siempre: ponle el corazón a tus actividades.\n\nYo estoy emocionada y lista para conocer a mis victimas (¡no es cierto!).\n\nÉxito",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 1,
+      "imagen": "/Blog/articulo6.webp"
+    },
+    {
+      "id": 7,
+      "titulo": "¿Por qué evaluamos el aprendizaje?",
+      "fecha": "2023-05-19",
+      "categoria": "Educación",
+      "etiquetas": ["evaluación", "aprendizaje", "estudiantes"],
+      "resumen": "El verdadero propósito de las evaluaciones académicas y cómo pueden ayudarnos a identificar áreas de mejora.",
+      "contenido": "Como en todo ambiente escolar las evaluaciones son parte del proceso. Se evalúa para conocer el grado de aprendizaje del estudiante y se le tiene que asignar una calificación de tipo numérica. ¿Pero realmente sirve evaluar?\n\nImagínate que tú estás seguro de que ya sabes multiplicar, pero cuando tienes que realizar una operación de este tipo te equivocas en el resultado. Y notas que cada que das respuesta al resultado de una multiplicación comúnmente te equivocas. Entonces ahí es donde se empieza a notar una deficiencia en el proceso mediante el cual realizas la multiplicación.\n\nLa evaluación sirve para darnos cuenta del aprendizaje obtenido a nivel personal, en clase quizás nos enseñan piedritas, pero en la evaluación te piden construir una casa con esas piedritas. Entonces ahí se evalúa el análisis que se hace del problema y la solución encontrada. En caso de no tener un resultado favorable nadie mas que tú debe de ponerse las pilas y revisar qué está pasando.\n\nAunque no nos guste la evaluación es una forma de conocer la compresión de los temas y la forma de implementarlos. Para la próxima vez que hagas una evaluación, primero respóndete: ¿Qué tanto conozco los temas a evaluar? Con base en la respuesta sabrás que tanto debes prepararte.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 3,
+      "imagen": "/Blog/articulo7.webp"
+    },
+    {
+      "id": 8,
+      "titulo": "¿Se vale cambiar de carrera?",
+      "fecha": "2023-05-04",
+      "categoria": "Vida Universitaria",
+      "etiquetas": ["carrera", "vocación", "decisiones"],
+      "resumen": "Reflexiones sobre cuándo y cómo considerar un cambio de carrera universitaria sin verlo como un fracaso.",
+      "contenido": "Seguramente en alguna ocasión has pensado en cambiar de carrera. Quizás fue ese día en que dijiste que no podías más y te cuestionaste si estabas estudiando lo correcto. Detente un momento a reflexionar. Si tienes muchas dudas, entonces deberías de preguntarte si existe otra carrera que te llame la atención. ¿Te apasiona lo que estudias?, ¿Aunque estés cansado, tú sigues echándole ganas?, ¿Te visualizas en unos años trabajando en esa área?\n\nUn cambio de carrera no es un fracaso, al contrario. Debes de estar consiente que en unos años buscarás trabajo de lo que ahora estás estudiando y vivirás con ese sueldo. Mi recomendación es acercarte a algún profesor(a) de tu confianza para que te oriente y comentárselo a la familia que te apoya económicamente. Recuerda es tu futuro el que está en juego.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo8.webp"
+    },
+    {
+      "id": 9,
+      "titulo": "Sobre el ChatGPT",
+      "fecha": "2023-03-27",
+      "categoria": "Tecnología",
+      "etiquetas": ["IA", "ChatGPT", "programación"],
+      "resumen": "Una mirada técnica sobre la inteligencia artificial y lo que hay detrás de sistemas como ChatGPT.",
+      "contenido": "Desde que se lanzó ese sistema a diario han surgido noticias diversas: qué si es bueno para realizar escritos, que si tiene mensajes suicidas, que quieren acabar con la humanidad, que puede hacer la tarea de los estudiantes, y la lista de noticias continua. La inteligencia artificial es en área computacional que permite dotar a la computadora de instrucciones para que a través de algoritmos genere su propio conocimiento. Hoy en día los algoritmos están muy avanzados y nos espantan. Te preguntarás y cómo se construye un algoritmo de esa índole. Para ello existen teorías, técnicas y recursos que son base para empezar a programarlos, y de ahí empezar a pulir detalles como que dan por resultado el chatGPT. Aquí tú que estás aprendiendo a programar o que ya sabes, reconocerás que detrás de ese sistema digno de reportajes, en las tripas del código seguramente encontrarás: if, for, while y switch. Cuando te preguntes y eso para qué sirve, ya tienes la respuesta.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo9.webp"
+    },
+    {
+      "id": 10,
+      "titulo": "Todo es información",
+      "fecha": "2023-03-13",
+      "categoria": "Desarrollo Personal",
+      "etiquetas": ["información", "pensamiento crítico", "redes sociales"],
+      "resumen": "Cómo navegar la sobrecarga de información diaria y la importancia de verificar las fuentes.",
+      "contenido": "A diario nos enfrentamos a una cantidad de información abrumadora, basta con observar y notar que a nuestro alrededor todo tiene información que puede ser útil o no depende nuestros intereses, por ejemplo: el tríptico pegado en el periódico mural de la escuela, lo que los profesores dijeron antes de irse del salón, lo publicado en las redes sociales, la información que escuchamos en la radio, etcétera. Hoy en día todos sabemos que la información es poder y el uso correcto de esta permitirá tomar decisiones. Una recomendación siempre es revisar la veracidad de las fuentes de información, esto te permitirá ir siendo más crítico con la información que consumes.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo10.webp"
+    },
+    {
+      "id": 11,
+      "titulo": "La observación al momento de codificar",
+      "fecha": "2023-03-06",
+      "categoria": "Programación",
+      "etiquetas": ["programación", "observación", "errores comunes"],
+      "resumen": "La importancia de desarrollar habilidades de observación al aprender a programar.",
+      "contenido": "Una de las cualidades básicas al momento de empezar a programar es la observación. En general, los lenguajes de programación manejan sintaxis que tenemos que respetar para darle las instrucciones a la computadora. Uno de los errores más comunes es que aún viendo el código no observas bien y cometes errores como omitir los \";\" o escribir mal las palabras. En ese caso te recomiendo siempre observa antes de escribir y sobre todo analices lo que estás haciendo. El observar es una cualidad que pocos tienen, pero se puede ir desarrollando y perfeccionando con el transcurso del tiempo. ¿Tú qué tan buen observador eres?",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo11.webp"
+    },
+    {
+      "id": 12,
+      "titulo": "La formación universitaria",
+      "fecha": "2023-02-27",
+      "categoria": "Vida Universitaria",
+      "etiquetas": ["universidad", "adaptación", "estudiantes"],
+      "resumen": "Consejos para aprovechar al máximo la experiencia universitaria y adaptarse a nuevos ritmos de trabajo.",
+      "contenido": "Quizás perteneces al club de los que tenía muchas ganas de iniciar su formación universitaria, bien ya estás aquí. Sí estás iniciando semestre, o te encuentras en las primeras semanas ya vas encontrando situaciones y/o actividades nuevas y sobre todo estás identificando que debes adaptarte a ritmos de trabajo distintos. Eso es normal, ocurre cada que iniciamos semestre. Muchas experiencias venideras te dejaran gratos recuerdos y de otras ni te acordarás cuando termine tu paso en la universidad. Procura que tu estancia sea grata y obtén el mejor aprovechamiento de todos los recursos de los cuales dispones.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo12.webp"
+    },
+    {
+      "id": 13,
+      "titulo": "La programación",
+      "fecha": "2023-02-20",
+      "categoria": "Programación",
+      "etiquetas": ["programación", "principiantes", "aprendizaje"],
+      "resumen": "Consejos para quienes están dando sus primeros pasos en el mundo de la programación.",
+      "contenido": "Cuando es el primer acercamiento al área de la programación muchos estudiantes tienen incertidumbre, déjame decirte que es algo normal. Van a entrar a un mundo fascinante en donde lo que piensen se lo pueden transmitir a la computadora y esta realizarlo. Un aspecto básico de la programación es la repetición en la sintaxis del lenguaje de programación, y el otro la lógica. Ambos se logran con la ejercitación y sin perder la paciencia. Las primeras veces que se programa se comenten errores, así que respira y concéntrate. Recuerda que todos los que ya programan así iniciaron, dando pasitos.\n\nBonita semana.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 2,
+      "imagen": "/Blog/articulo13.webp"
+    },
+    {
+      "id": 14,
+      "titulo": "Bienvenido semestre",
+      "fecha": "2021-02-13",
+      "categoria": "Vida Universitaria",
+      "etiquetas": ["semestre", "docencia", "motivación"],
+      "resumen": "Reflexiones de una docente sobre el inicio de semestre y la importancia de disfrutar la etapa universitaria.",
+      "contenido": "Siempre los inicios de semestre me entusiasman. A lo largo de mis casi 16 años en la docencia me ha tocado conocer a muchos y muchas estudiantes que vienen con ganas de aprender, están emocionados, otros y otras tienen miedo o incertidumbre. Siempre les doy el mismo consejo: \"disfruta la mejor etapa de tu vida\". Viene llena de éxitos, alegrías, frustraciones y fracasos, pero créanme vale la pena.",
+      "autor": "Tu nombre",
+      "lecturaMinutos": 1,
+      "imagen": "/Blog/articulo14.webp"
+    }
+  ],
+  "categorias": [
+    "Vida Universitaria",
+    "Desarrollo Personal",
+    "Educación",
+    "Programación",
+    "Tecnología"
+  ],
+  "estadisticas": {
+    "totalPosts": 14,
+    "rangoFechas": {
+      "inicio": "2021-02-13",
+      "fin": "2025-03-14"
+    }
+  }
+}

@@ -1,40 +1,38 @@
-"use client"
-
-import { useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
-import Navbar from "../../components/Navbar"
-import Footer from "../../components/Footer"
-import YouTubePreview from "../../components/YoutubeLink"
-import CardHeader from "../../components/CardHeader"
-import "./Home.css"
-import json from "../../json/YoutubeLinks.json"
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import YouTubePreview from "../../components/YoutubeLink";
+import CardHeader from "../../components/CardHeader";
+import "./Home.css";
+import json from "../../json/YoutubeLinks.json";
 
 // Imagenes de header
-import img from "../../assets/peluche-animacion.png"
-import img2 from "../../assets/duck-img.png"
-import img3 from "../../assets/pinguino-img.png"
-import img4 from "../../assets/Paola-foto.webp"
+import img from "../../assets/peluche-animacion.png";
+import img2 from "../../assets/duck-img.png";
+import img3 from "../../assets/pinguino-img.png";
+import img4 from "../../assets/Paola-foto.webp";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
-  const heroRef = useRef(null)
-  const cardsRef = useRef([])
-  const sectionsRef = useRef([])
+  const heroRef = useRef(null);
+  const cardsRef = useRef([]);
+  const sectionsRef = useRef([]);
 
   const imagenes = [
-    [img2, "Tips escolares", "#e8c816ff"],
-    [img, "Contenido digital", "#33bef5ff"],
-    [img3, "Ayuda en tu camino universitario", "#9b57efff"],
-  ]
+    [img2, "#e8c816ff"],
+    [img, "#33bef5ff"],
+    [img3, "#9b57efff"],
+  ];
 
   const degree = [
     "Maestría en Educación",
     "Maestría en Ciencias de la Computación",
     "Ingeniera en Sistemas Computacionales",
     "Técnica en computación",
-  ]
+  ];
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -44,7 +42,7 @@ function Home() {
         duration: 0.8,
         stagger: 0.2,
         ease: "power3.out",
-      })
+      });
 
       gsap.from(cardsRef.current, {
         opacity: 0,
@@ -53,7 +51,7 @@ function Home() {
         stagger: 0.2,
         ease: "back.out(1.7)",
         delay: 0.3,
-      })
+      });
 
       sectionsRef.current.forEach((section) => {
         if (section) {
@@ -68,13 +66,13 @@ function Home() {
             duration: 0.8,
             stagger: 0.2,
             ease: "power3.out",
-          })
+          });
         }
-      })
-    })
+      });
+    });
 
-    return () => ctx.revert()
-  }, [])
+    return () => ctx.revert();
+  }, []);
 
   return (
     <div className="container-main">
@@ -87,10 +85,12 @@ function Home() {
             <div className="hero-content">
               <span className="hero-tag">Educación Digital Innovadora</span>
               <h1 className="hero-title">
-                Transformando el aprendizaje en <span className="hero-name">Tecnología e TI</span>
+                Bienvenido al sitio web de{" "}
+                <span className="hero-name">Paola Cortez</span>
               </h1>
               <p className="hero-description">
-                Contenido educativo de calidad enfocado en ingeniería de TI, programación y tecnología.
+                Contenido educativo de calidad enfocado, ¿Preparado para conocer
+                tu futuro ahora?
               </p>
               <div className="hero-cta">
                 <a href="#contenido" className="btn btn-primary">
@@ -106,7 +106,7 @@ function Home() {
               <div className="hero-cards">
                 {imagenes.map((image, index) => (
                   <div key={index} ref={(el) => (cardsRef.current[index] = el)}>
-                    <CardHeader image={image[0]} text={image[1]} color={image[2]} />
+                    <CardHeader image={image[0]} color={image[1]} />
                   </div>
                 ))}
               </div>
@@ -120,24 +120,27 @@ function Home() {
           id="sobre-mi"
           ref={(el) => (sectionsRef.current[0] = el)}
         >
-          <div className="section-title animate-on-scroll">
-            <p className="section-subtitle">Sobre Mí</p>
-            <h2>Paola Cortez</h2>
-          </div>
-
           <div className="about-content">
             <div className="about-image animate-on-scroll">
               <img src={img4 || "/placeholder.svg"} alt="Paola Cortez" />
             </div>
             <div className="about-text animate-on-scroll">
+              <div className="section-title animate-on-scroll">
+                <p className="section-subtitle">Sobre Mí</p>
+                <h2>Paola Cortez</h2>
+              </div>
               <p>
-                Soy Paola Cortez, apasionada por la educación y comprometida con la formación integral de estudiantes
-                universitarios. En esta plataforma, podrás acceder a mis publicaciones académicas y explorar recursos
-                didácticos digitales que facilitan tu aprendizaje.
+                Soy Paola Cortez, apasionada por la educación y comprometida con
+                la formación integral de estudiantes universitarios. En esta
+                plataforma, podrás acceder a mis publicaciones académicas y
+                explorar recursos didácticos digitales que facilitan tu
+                aprendizaje.
               </p>
               <p>
-                Ofrezco servicios de asesoría personalizada para ayudarte a alcanzar tus metas académicas. Este espacio
-                es para ti: un lugar donde el conocimiento se comparte y el aprendizaje se transforma.
+                Ofrezco servicios de asesoría personalizada para ayudarte a
+                alcanzar tus metas académicas. Este espacio es para ti: un lugar
+                donde el conocimiento se comparte y el aprendizaje se
+                transforma.
               </p>
 
               <div className="degree-badges">
@@ -163,7 +166,11 @@ function Home() {
 
           <div className="content-grid">
             {json.videos.map((video) => (
-              <YouTubePreview url={video.url} title={video.title} key={video.id} />
+              <YouTubePreview
+                url={video.url}
+                title={video.title}
+                key={video.id}
+              />
             ))}
           </div>
         </section>
@@ -175,9 +182,15 @@ function Home() {
         >
           <div className="cta-content animate-on-scroll">
             <h2>¿Listo para Comenzar?</h2>
-            <p>Únete a cientos de estudiantes que están transformando su aprendizaje en tecnología.</p>
+            <p>
+              Únete a cientos de estudiantes que están transformando su
+              aprendizaje en tecnología.
+            </p>
             <div className="cta-buttons">
-              <a href="mailto:contacto@paolacortez.com" className="btn btn-white">
+              <a
+                href="mailto:contacto@paolacortez.com"
+                className="btn btn-white"
+              >
                 Enviar Email
               </a>
               <a href="#contenido" className="btn btn-secondary-light">
@@ -190,7 +203,7 @@ function Home() {
 
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

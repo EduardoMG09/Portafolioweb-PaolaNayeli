@@ -39,8 +39,7 @@ function CardHeader(props) {
         "--card-color-rgb": cardColorRgb,
       }}
     >
-      <img src={imageSrc || "/placeholder.svg"} alt={props.text} />
-      <p>{props.text}</p>
+      <img src={imageSrc || "/placeholder.svg"} />
     </div>
   )
 }

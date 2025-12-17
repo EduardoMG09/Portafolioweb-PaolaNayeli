@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { getYouTubeId } from "../utils/youtube";
-import "../styles/YouTubeLink.css";
+import "../styles/YoutubeLink.css";
 import { FaYoutube } from "react-icons/fa";
 
 export default function YouTubePreview({ url, title }) {

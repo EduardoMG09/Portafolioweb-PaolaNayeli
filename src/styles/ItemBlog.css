@@ -138,3 +138,20 @@
 }
 
 .meta-date, .meta-mins { opacity: 0.85; }
+
+/* Desktop normal (24") */
+@media (min-width: 1440px) {
+}
+
+/* Desktop grande / 27" */
+@media (min-width: 1920px) {
+  .chip{
+    font-size: 0.8rem;
+  }
+  .item-blog-title{
+    font-size: 1.5rem;
+  }
+  .item-blog-desc{
+    font-size: 1.1rem;
+  }
+}

@@ -31,8 +31,7 @@
 }
 
 .hero-inner {
-  max-width: 1400px;
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr; /* stack: content above, cards below */
   gap: 2.5rem;
@@ -102,10 +101,9 @@
 
 .hero-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.25rem 1.5rem;
-  width: 100%;
-  max-width: 1100px;
+  width: 90%;
 }
 
 /* Colored section backgrounds */
@@ -306,5 +304,58 @@
 
   .cta-content h2 {
     font-size: 2rem;
+  }
+}
+/* Desktop normal (24") */
+@media (min-width: 1440px) {
+}
+
+/* Desktop grande / 27" */
+@media (min-width: 1920px) {
+  .hero-tag{
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+  }
+  .hero-title{
+    font-size: 6rem;
+  }
+  .hero-description{
+    font-size: 1.5rem;
+  }
+  .btn{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .hero-cards{
+    width: 80%;
+  }
+  .section{
+    width: 100%;
+    max-width: 90%;
+  }
+  .about-content{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+  .about-image img{
+    max-width: 480px;
+  }
+  .section-title .section-subtitle{
+    font-size: 1rem;
+  }
+  .section-title h2{
+    font-size: 3.2rem;
+  }
+  .about-text p{
+    font-size: 1.5rem;
+  }
+  .degree-badge{
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  .cta-section{
+    width: 100%;
+    max-width: 90%;
   }
 }

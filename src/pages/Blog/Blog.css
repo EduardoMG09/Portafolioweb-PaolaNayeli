@@ -74,6 +74,22 @@
 
 .articles {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	grid-template-columns: repeat(3, 1fr);
 	gap: 24px;
+}
+/* Desktop normal (24") */
+@media (min-width: 1440px) {
+}
+
+/* Desktop grande / 27" */
+@media (min-width: 1920px) {
+	.blog-header {
+		max-width: 85%;
+	}
+	.blog-title {
+		font-size: clamp(2rem, 2.5vw + 1rem, 4rem);
+	}
+	.articles{
+		grid-template-columns: repeat(4, 1fr);
+	}
 }

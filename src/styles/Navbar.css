@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo-side {
@@ -166,5 +167,26 @@
 
   .mobile-menu-btn {
     display: block;
+  }
+}
+/* Desktop normal (24") */
+@media (min-width: 1440px) {
+}
+
+/* Desktop grande / 27" */
+@media (min-width: 1920px) {
+  .navbar-inner {
+    max-width: 90%;
+  }
+  .logo-side img {
+    height: 60px;
+  }
+  .nav-link{
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+  .cta-btn{
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
   }
 }

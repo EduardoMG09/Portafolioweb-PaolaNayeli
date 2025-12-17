@@ -79,6 +79,15 @@
 }
 /* Desktop normal (24") */
 @media (min-width: 1440px) {
+	.blog-header {
+		max-width: 82%;
+	}
+	.blog-title {
+		font-size: clamp(1.6rem, 2.2vw + 1rem, 3.4rem);
+	}
+	.articles{
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
 
 /* Desktop grande / 27" */

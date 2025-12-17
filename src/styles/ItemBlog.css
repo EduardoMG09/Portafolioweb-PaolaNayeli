@@ -141,6 +141,15 @@
 
 /* Desktop normal (24") */
 @media (min-width: 1440px) {
+  .chip{
+    font-size: 0.78rem;
+  }
+  .item-blog-title{
+    font-size: 1.4rem;
+  }
+  .item-blog-desc{
+    font-size: 1.02rem;
+  }
 }
 
 /* Desktop grande / 27" */

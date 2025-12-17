@@ -308,6 +308,52 @@
 }
 /* Desktop normal (24") */
 @media (min-width: 1440px) {
+  .hero-tag{
+    font-size: 1.05rem;
+    padding: 0.65rem 1.4rem;
+  }
+  .hero-title{
+    font-size: 4.5rem;
+  }
+  .hero-description{
+    font-size: 1.3rem;
+  }
+  .btn{
+    font-size: 1.05rem;
+    padding: 0.9rem 1.6rem;
+  }
+  .hero-cards{
+    width: 85%;
+  }
+  .section{
+    width: 100%;
+    max-width: 92%;
+  }
+  .about-content{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 1rem;
+  }
+  .about-image img{
+    max-width: 400px;
+  }
+  .section-title .section-subtitle{
+    font-size: 0.95rem;
+  }
+  .section-title h2{
+    font-size: 2.8rem;
+  }
+  .about-text p{
+    font-size: 1.25rem;
+  }
+  .degree-badge{
+    font-size: 0.95rem;
+    padding: 0.65rem 1.25rem;
+  }
+  .cta-section{
+    width: 100%;
+    max-width: 92%;
+  }
 }
 
 /* Desktop grande / 27" */

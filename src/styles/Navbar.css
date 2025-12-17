@@ -171,6 +171,20 @@
 }
 /* Desktop normal (24") */
 @media (min-width: 1440px) {
+  .navbar-inner {
+    max-width: 85%;
+  }
+  .logo-side img {
+    height: 52px;
+  }
+  .nav-link{
+    padding: 0.7rem 1.6rem;
+    font-size: 1.05rem;
+  }
+  .cta-btn{
+    padding: 0.7rem 1.6rem;
+    font-size: 1.05rem;
+  }
 }
 
 /* Desktop grande / 27" */

@@ -96,6 +96,14 @@
 }
 /* Desktop normal (24") */
 @media (min-width: 1440px) {
+  .card-header{
+    min-height: 200px;
+  }
+  .card-header img {
+    width: 420px;
+    height: 360px;
+    top: -75px;
+  }
 }
 
 /* Desktop grande / 27" */

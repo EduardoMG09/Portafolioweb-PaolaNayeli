@@ -1,8 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import YouTubePreview from "../../components/YoutubeLink";
 import CardHeader from "../../components/CardHeader";
 import "./Home.css";
@@ -76,8 +74,6 @@ function Home() {
 
   return (
     <div className="container-main">
-      <Navbar />
-
       <div className="content-home">
         {/* Hero Section */}
         <section className="hero-section" id="inicio" ref={heroRef}>
@@ -201,7 +197,6 @@ function Home() {
         </section>
       </div>
 
-      <Footer />
     </div>
   );
 }

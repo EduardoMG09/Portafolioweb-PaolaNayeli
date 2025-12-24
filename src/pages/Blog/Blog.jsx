@@ -1,8 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Navbar from "../../components/Navbar.jsx";
-import Footer from "../../components/Footer.jsx";
 
 import { FcIdea } from "react-icons/fc";
 import { VscGraph } from "react-icons/vsc";
@@ -51,8 +49,6 @@ function Blog() {
   }, []);
   return (
     <div className="container-main" ref={containerRef}>
-      <Navbar />
-
       <div className="blog-container" ref={(el) => (sectionsRef.current[0] = el)}>
         <div className="blog-header">
           <h2 className="blog-title">
@@ -90,7 +86,6 @@ function Blog() {
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,152 @@
+[
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de acceso por reconocimiento facial para estudiantes en la UPIITA del IPN",
+    "plan_estudios": "Mecatrónica",
+    "anio_designacion": "2025-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Aplicación web descentralizada para gestionar pacientes de forma efectiva",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2025-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Prototipo de sistema de corrección de la técnica de sentadilla basado en visión artificial",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2024-07"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema para la gestión y organización de viajes compartidos dirigido a los alumnos de la UPIITA",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2024-07"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Desarrollo e implementación de un Chatbot que integre algoritmos inteligentes para orientar a los estudiantes de la UPIITA en trámites del Departamento de Gestión Escolar",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2023-06"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Plataforma digital para el aprendizaje del idioma inglés en educación preescolar",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2023-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de recomendación de rutas para ciclistas, utilizando fuentes heterogéneas de calidad del aire",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2022-07"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema automatizado para la detección del robo hormiga y proceso de compra en tiendas de autoservicio",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2021-12"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Modelado de trayectorias de un robot humanoide mediante visión artificial",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2021-06"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de apoyo para el análisis de riesgo estructural de un inmueble",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2021-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Seeart: Aplicación interactiva para favorecer la apreciación artística en niños de preescolar",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2020-07"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de Apoyo para el Discernimiento Médico: Clasificación de Sintomatología de una Especialidad",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2017-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema web para la automatización en la selección de auxiliares auditivos basado en inteligencia artificial y comparación espectral",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2017-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema web y móvil para el fortalecimiento de aprendizaje de las matemáticas a nivel secundaria",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2017-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Red social para promover la convivencia cara a cara y las acciones solidarias",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2016-08"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Interfaz de lectura de un sistema micro electro-mecánico (MEMS) usado para medir la presión arterial en una persona",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2016-05"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema para el aprendizaje del alfabeto Braille utilizando el método de Bliseo",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2016-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema recomendador de recetas de cocina con base en productos almacenados en una alacena utilizando tecnología RFID",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2016-01"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de Gestión de información para las ONG en materia de derechos humanos basado en el perfilamiento de usuarios",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2014-08"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de recopilación y recomendación de textos académicos con funciones de OCR",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2014-08"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema de gestión de nóminas en la nube para la Micro, Pequeña y Mediana empresa (PyME)",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2014-01"
+  },
+  {
+    "puesto": "Directora",
+    "titulo": "Sistema generador de reportes de medición y oficios con envío inalámbrico para salidas foráneas",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2013-08"
+  },
+  {
+    "puesto": "Codirectora",
+    "titulo": "Sistema Web de entrenamiento para servicios médicos de emergencia",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2013-01"
+  },
+  {
+    "puesto": "Directora",
+    "titulo": "Sistema planificador de itinerarios de viaje. Caso de estudio: Centro Histórico de la Ciudad de México",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2013-01"
+  },
+  {
+    "puesto": "Directora",
+    "titulo": "CPubMovil: Red social para recomendar cafeterías y bares mediante Inteligencia Colectiva",
+    "plan_estudios": "Telemática",
+    "anio_designacion": "2013-01"
+  }
+]

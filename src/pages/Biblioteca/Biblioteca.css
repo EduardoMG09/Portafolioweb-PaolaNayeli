@@ -109,7 +109,7 @@
   border-collapse: collapse;
 }
 .tesis-container-inner thead {
-  background: linear-gradient(135deg, #79db48 0%, #46b221 100%);
+  background: linear-gradient(135deg, #62ba36 0%, #308b11 100%);
 }
 .tesis-container-inner thead th {
   color: #fff;
@@ -123,10 +123,10 @@
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 .tesis-container-inner tbody tr:nth-child(even) {
-  background: #ecfdf5; /* zebra verde muy claro (mint) */
+  background: #ecfdee; /* zebra verde muy claro (mint) */
 }
 .tesis-container-inner tbody td {
   padding: 1rem 1.25rem;
-  border-top: 1px solid #f1f5f9;
+  border-top: 1px solid #f1f9f1;
   color: #1f2937;
 }

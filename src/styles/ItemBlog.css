@@ -14,6 +14,8 @@
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-decoration: none; /* remove underline on the link wrapper */
+  color: inherit; /* keep text colors from context */
 }
 
 /* Top content */
@@ -82,7 +84,7 @@
 /* Media area */
 .item-blog-media {
   position: relative;
-  background: #cbb4ff; /* soft purple backdrop like reference */
+  background: #f5f6f7; /* neutral backdrop to remove purple */
 }
 
 .item-blog-image {
@@ -106,6 +108,7 @@
   font-weight: 700;
   cursor: pointer;
   backdrop-filter: saturate(1.2) blur(2px);
+  pointer-events: none; /* allow the Link wrapper to handle clicks */
 }
 
 .item-blog-cta::after {

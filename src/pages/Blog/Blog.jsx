@@ -71,17 +71,20 @@ function Blog() {
         <div className="articles-container" ref={(el) => (sectionsRef.current[1] = el)}>
           <h3>Artículos</h3>
           <div className="articles">
-                {data.blogs.map((post) => (
-                    <ItemBlog
-                        key={post.id}
-                        titulo={post.titulo}
-                        resumen={post.resumen}
-                        fecha={post.fecha}
-                        categoria={post.categoria}
-                        imagen={post.imagen}
-                        lecturaMinutos={post.lecturaMinutos}
-                        />
-                ))}
+            {data.blogs.map((post) => (
+              <ItemBlog
+                key={post.id}
+                id={post.id}
+                titulo={post.titulo}
+                resumen={post.resumen}
+                fecha={post.fecha}
+                categoria={post.categoria}
+                etiquetas={post.etiquetas}
+                imagen={post.imagen}
+                video={post.video}
+                lecturaMinutos={post.lecturaMinutos}
+                />
+            ))}
             </div>
         </div>
       </div>

@@ -1,0 +1,20 @@
+.cursos-container {
+    width: 95%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.cursos-content {
+  margin-top: 5rem;
+}
+.cursos-image {
+  max-width: 100%;
+  height: auto;
+}
+.cursos-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+}

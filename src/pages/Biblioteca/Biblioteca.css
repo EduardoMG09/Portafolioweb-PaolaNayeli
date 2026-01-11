@@ -34,35 +34,51 @@
 }
 .btn-opciones {
   width: 95%;
-  margin: 2rem 0;
+  margin: 1.25rem auto -1px; /* slight overlap with card border */
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: flex-start; /* align to right side */
+  align-items: flex-start;
+  gap: 0;
+  background: transparent;
 }
 .btn-opciones button {
-  width: 12%;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 10px;
-  background-color: #e4e4e4cc;
-  color: rgba(0, 0, 0, 0.653);
+  flex: 0 0 auto;
+  padding: 0.6rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  border-bottom: none; /* attach to card */
+  border-radius: 12px 12px 0 0; /* folder tab shape */
+  background-color: #ffffff;
+  color: #374151;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 }
 .btn-opciones button:hover {
-  background-color: #c6c5c5c2;
+  background-color: #f3f4f6;
 }
 .btn-opciones button.active {
-  background-color: #1e90ff;
-  color: #fff;
+  background-color: #1e90ff; /* selected blue */
+  color: #ffffff;
+  border-color: #1e90ff;
 }
 .btn-opciones button.active:hover {
   background-color: #1c86ee;
+  border-color: #1c86ee;
+}
+/* focus ring for accessibility */
+.btn-opciones button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.25);
 }
 .biblioteca-seccion {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  background: transparent;
+  border-left: 1px solid #e5e7eb;
+  padding: 1.25rem 1.5rem;
 }
 .biblioteca-seccion section {
   width: 100%;

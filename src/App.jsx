@@ -7,6 +7,7 @@ import Blog from './pages/Blog/Blog.jsx';
 import Biblioteca from './pages/Biblioteca/Biblioteca.jsx';
 import Cursos from './pages/Cursos/Cursos.jsx';
 import BlogPost from './pages/Blog/BlogPost.jsx';
+import Contacto from './pages/Contacto/Contacto.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/biblioteca" element={<Biblioteca />} />
           <Route path="/cursos" element={<Cursos />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Route>
       </Routes>
     </BrowserRouter>
